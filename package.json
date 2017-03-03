@@ -9,8 +9,7 @@
   "license": "MIT",
   "author": "Glenn D.",
   "dependencies": {
-    "bootstrap": "~3.3.7",
-    "fontawesome": "~4.7.2"
+    "bootstrap": "~3.3.7"
   },
   "scripts": {
     "prestart": "webpack --config vendor/webpack.config.js",
