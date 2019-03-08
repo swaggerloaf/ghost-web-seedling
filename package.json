@@ -9,14 +9,11 @@
   "license": "MIT",
   "author": "Glenn D.",
   "dependencies": {
+    "font-awesome": "~4.7.0",
     "bootstrap": "~3.3.7"
   },
   "scripts": {
-    "prestart": "webpack --config vendor/webpack.config.js",
-    "start": "webpack-dev-server"
+    "start": "python -m SimpleHTTPServer"
   },
-  "devDependencies": {
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.1"
-  }
+  "devDependencies": {}
 }
